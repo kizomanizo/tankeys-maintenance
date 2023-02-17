@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'Helvetica Local';
-    src: url('../fonts/Helvetica.ttf');
-}
-
-@font-face {
     font-family: 'Helvetica Condensed Black';
-    src: url('../fonts/Helvetica-Condensed-Black.otf');
+    src: url('../fonts/Helvetica-Condensed-Black.woff2');
 }
