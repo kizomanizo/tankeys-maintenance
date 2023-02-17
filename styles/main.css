@@ -116,9 +116,9 @@ html, body {
 }
 
 .footer p {
-    font-family: 'Helvetica Local', Arial, sans-serif;
+    font-family: 'Helvetica Condensed Black', Arial, sans-serif;
     font-size: 1em;
-    font-weight: normal;
+    font-weight: lighter;
     color: var(--catplr-60);
     transform: rotate(-90deg);
 }
