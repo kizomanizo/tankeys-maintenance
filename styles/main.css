@@ -1,8 +1,11 @@
 @import url('fonts.css');
+@import url('colors.css');
 
 html, body {
-    background: rgba(255,200,0,100%);
+    background: var(--yeller-50);
     margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .content{
@@ -11,11 +14,13 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 25px;
+    z-index: 4;
 }
 
 .light-font {
     letter-spacing: 1.2px;
-    color: rgba(255,200,0,100%);
+    color: var(--yeller-50);
     transform: scale(1.35, 1.5);
     font-family: 'Helvetica Condensed Black';
     font-size: 5em;
@@ -24,7 +29,7 @@ html, body {
 
 .dark-font {
     letter-spacing: 1.2px;
-    color: rgba(55,55,55,100%);
+    color: var(--grsclr-70);
     transform: scale(1.35, 1.5);
     font-family: 'Helvetica Condensed Black';
     font-size: 2em;
@@ -36,12 +41,12 @@ html, body {
     margin-right: auto;
     height: 170px;
     width: 700px;
-    background-image: linear-gradient(to top right, rgba(0,0,0,100%), rgba(55,55,55,100%));
-    transform: skew(-15deg, -12deg);
+    background-image: linear-gradient(to top right, var(--grsclr-90), var(--grsclr-50));
+    transform: skew(-13deg, -13deg);
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 5px 10px rgba(250, 150, 15, 100%);
+    box-shadow: 0px 5px 10px var(--orangr-60);
     z-index: 5;
 }
 
@@ -50,13 +55,75 @@ html, body {
     margin-right: auto;
     margin-top: -3px;
     height: 120px;
-    width: 500px;
-    color: rgba(55,55,55,100%);
-    background-color: rgba(255,255,255,100%);
-    transform: skew(-15deg, -14deg) translate(100px, 0px);
+    width: 480px;
+    color: var(--grsclr-70);
+    background-color: var(--grsclr-00);
+    background-image: linear-gradient(to top right, var(--grsclr-00), var(--grsclr-00), var(--grsclr-20));
+    transform: skew(-13deg, -14deg) translate(50px, 0px);
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 15px rgba(253, 148, 13, 100%);
+    box-shadow: 0px 10px 25px var(--orangr-60);
     z-index: 4;
+}
+
+.dark-line {
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    width: 400px;
+    background-color: var(--grsclr-70);
+}
+
+.light-line {
+    margin-left: auto;
+    margin-right: auto;
+    height: 3px;
+    width: 400px;
+    background-color: var(--grsclr-00);
+}
+
+.top-top-line {
+    margin-bottom: 20px;
+    transform: skew(-13deg, -13deg) translate(-120px, 0px);
+    z-index: 6;
+}
+
+.top-bottom-line {
+    margin-bottom: 20px;
+    transform: skew(-13deg, -13deg) translate(175px, 0px);
+    z-index: 6;
+}
+
+.bottom-top-line {
+    margin-top: 20px;
+    transform: skew(-13deg, -13deg) translate(100px, 0px);
+    z-index: 6;
+}
+
+.bottom-bottom-line {
+    margin-top: 20px;
+    transform: skew(-13deg, -13deg) translate(-210px, 0px);
+    z-index: 6;
+}
+
+.footer {
+    position: absolute;
+    bottom: 90px;
+    left: -50px;
+    height: 20px;
+    z-index: 7;
+}
+
+.footer p {
+    font-family: 'Helvetica Local';
+    font-size: 1em;
+    font-weight: normal;
+    color: var(--catplr-60);
+    transform: rotate(-90deg);
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--catplr-90);
 }

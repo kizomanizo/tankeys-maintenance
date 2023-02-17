@@ -1,0 +1,47 @@
+:root {
+    /* Tankeys Caterpillar Palette */
+    --catplr-90: rgba(139, 103, 41, 100%);
+    --catplr-80: rgba(162, 120, 48, 100%);
+    --catplr-70: rgba(185, 138, 54, 100%); 
+    --catplr-60: rgba(208, 155, 61, 100%);
+    --catplr-50: rgba(231, 172, 68, 100%);
+    --catplr-40: rgba(233, 180, 87, 100%);
+    --catplr-30: rgba(236, 189, 105, 100%);
+    --catplr-20: rgba(238, 197, 124, 100%);
+    --catplr-10: rgba(241, 205, 143, 100%);
+
+    /* Tankeys Yellow Palette */
+    --yeller-90: rgba(153, 122, 0, 100%);
+    --yeller-80: rgba(179, 143, 0, 100%);
+    --yeller-70: rgba(204, 163, 0, 100%);
+    --yeller-60: rgba(230, 184, 0, 100%);
+    --yeller-50: rgba(255, 204, 0, 100%);
+    --yeller-40: rgba(255, 209, 26, 100%);
+    --yeller-30: rgba(255, 214, 51, 100%);
+    --yeller-20: rgba(255, 219, 77, 100%);
+    --yeller-10: rgba(255, 224, 102, 100%);
+
+    /* Tankeys Orange Palette */
+    --orangr-90: rgba(147, 73, 2, 100%);
+    --orangr-80: rgba(172, 85, 3, 100%);
+    --orangr-70: rgba(172, 85, 3, 100%);
+    --orangr-60: rgba(221, 110, 4, 100%);
+    --orangr-50: rgba(245, 122, 4, 100%);
+    --orangr-40: rgba(246, 135, 29, 100%);
+    --orangr-30: rgba(247, 149, 54, 100%);
+    --orangr-20: rgba(248, 162, 79, 100%);
+    --orangr-10: rgba(249, 175, 104, 100%);
+
+    /* Tankeys Grayscale Palette */
+    --grsclr-100: rgba(0, 0, 0, 100%);
+    --grsclr-90: rgba(25, 25, 25, 100%);
+    --grsclr-80: rgba(50, 50, 50, 100%);
+    --grsclr-70: rgba(75, 75, 75, 100%);
+    --grsclr-60: rgba(100, 100, 100, 100%);
+    --grsclr-50: rgba(125, 125, 125, 100%);
+    --grsclr-40: rgba(150, 150, 150, 100%);
+    --grsclr-30: rgba(175, 175, 175, 100%);
+    --grsclr-20: rgba(200, 200, 200, 100%);
+    --grsclr-10: rgba(225, 225, 225, 100%);
+    --grsclr-00: rgba(255, 255, 255, 100%);
+}
